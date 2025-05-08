@@ -3,7 +3,6 @@ import { useStyles } from "./styles";
 import { useHistory } from "react-router";
 
 import Button from "@material-ui/core/Button"
-import Typography from "@material-ui/core/Typography";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer"
 
@@ -29,10 +28,6 @@ function Courses({ paletteType, setPaletteType }) {
             <Header paletteType={paletteType} setPaletteType={setPaletteType} />
 
             <ContainerBody>
-
-                <Typography className={classes.title} variant="h5" color='textSecondary'     >
-                    Selecione o curso
-                </Typography>
 
                 <ContainerGrid>
                     <Button
